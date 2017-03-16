@@ -9,7 +9,6 @@
   # An introduction to R
   # Prepare community data (transform, relativize)
   # Analyze community data (NMDS, dbRDA, PerMANOVA, indicator species analysis)
-  # Display community data interactively (plotly)
 
 
 # -----------------------------------------------------------------------------
@@ -47,7 +46,7 @@ str(spa)
 # -----------------------------------------------------------------------------
 # Explore site locations ######################################################  
 # -----------------------------------------------------------------------------
-  # We will create a 'map' of the site locations along the Daubs river
+  # We will create a 'map' of the site locations along the Doubs river
 
 # create an empty plot with proportional axes 1:1 and titles
 plot(spa, asp = 1, type = "n", main = "Site Locations",
@@ -127,7 +126,7 @@ boxplot(spe.chi$LOC, spe.wi$LOC,
     # panelutils.R is from "Numerical Ecology with R" and can be downloaded from
     # https://github.com/JoeyBernhardt/NumericalEcology/blob/master/panelutils.R
 
-source("~/Dropbox/HilsToDoList/Data Science/R_Workshop_Hope_041117/panelutils.R")
+source("~/.../panelutils.R")
 
 op <- par(mfrow = c(1,1), pty = "s") # save the default figure output formatting
 
