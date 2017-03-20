@@ -286,7 +286,7 @@ spa$updown[1:15] <- 1
   # into 4 different zones
 spa["zone"] <- 0
 spa$zone[1:9] <- 1
-spa$zone[25:30] <- 1
+spa$zone[25:29] <- 1
 
 # This is a "nested design" = one variable (zone) is nested within another
   # variable (up vs. downstream)
